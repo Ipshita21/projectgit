@@ -1,0 +1,6 @@
+task prime(){
+doLast{
+File file =file('D:\Gradle\.prime.txt')
+println file.text
+}
+}
